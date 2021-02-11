@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sorting Visualizer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="back">
+    <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <h2 id="head">Sorting Visualizer</h2>
+        <div style="padding:20px">
+            <div>
+                <button id="newarray" type="button" class="btn btn-primary" >new array</button>
+                <button id="bubblesort" type="button" class="btn btn-dark" >Bubble sort</button>
+                <button type="button" class="btn btn-dark" >Selection sort</button>
+                <button type="button" class="btn btn-dark" >Insertion sort</button>
+                <button type="button" class="btn btn-dark" >Quick sort</button>
+                <button type="button" class="btn btn-dark" >Merge sort</button>
+            </div>
+        </div> 
+    </div>
+    <span style="color:lawngreen">
+        Number of bars <input id="arr_sz" type="range"  min=20 max=120 step=1 >
+    </span> 
+    <span style="color:lawngreen">
+        Speed <input id="spd" type="range" min=500 max=2000 step=1>
+    </span>
+    </nav>
+    <div id="bar">
+
+    </div>
+    
+    <script src="js-files/sorting.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+#head{
+    color:sandybrown;
+}
+#bar{
+    text-align: center;
+}
+.mystyle{
+    height:120px;
+    width:10px;
+    margin:2px;
+    display:inline-block;
+    background-color:mediumblue;
+}
+#back{
+    background-color:white;
+}
